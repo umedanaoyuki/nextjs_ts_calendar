@@ -10,6 +10,9 @@
     "lint:debug": "eslint ./src --debug",
     "lint:fix": "eslint ./src --fix"
   },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
   "dependencies": {
     "@prisma/extension-accelerate": "^2.0.1",
     "next": "15.3.3",
