@@ -1,7 +1,6 @@
 import React from 'react'
 import {
     Card,
-    CardAction,
     CardContent,
     CardDescription,
     CardFooter,
@@ -17,7 +16,6 @@ const SignupPage = () => {
             <CardHeader>
                 <CardTitle>ユーザー登録</CardTitle>
                 <CardDescription>ユーザーを作成してください</CardDescription>
-                <CardAction>Card Action</CardAction>
             </CardHeader>
             <CardContent>
                 <SignupForm />
