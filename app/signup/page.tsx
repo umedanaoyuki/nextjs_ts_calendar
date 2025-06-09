@@ -8,6 +8,7 @@ import {
     CardHeader,
     CardTitle,
   } from "@/components/ui/card"
+import SignupForm from '@/components/features/auth/components/SignupForm'
 
 const SignupPage = () => {
   return (
@@ -19,7 +20,7 @@ const SignupPage = () => {
                 <CardAction>Card Action</CardAction>
             </CardHeader>
             <CardContent>
-                <p>Card Content</p>
+                <SignupForm />
             </CardContent>
             <CardFooter>
                 <p>Card Footer</p>
